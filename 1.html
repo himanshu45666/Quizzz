@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZ & THINK</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <p style="background-image: url('');">
+    <header>
+        <nav class="navbar">
+            <div class="logo">QUIZINK</div>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                  <a href="#">Categories</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">Maths</a></li>
+                    <li><a href="#">Programming</a></li>
+                  </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <!-- <a href="login.html" class="btn login-btn">Login</a> -->
+            <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;background-color:#d28fea;background-size: auto;border: 2px solid black;
+
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background: #444;
+  display: none;
+  list-style: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-menu li a {
+  color: #fff;
+  display: block;
+  padding: 5px 10px;
+}
+
+.dropdown-menu li a:hover {
+  background: #ff5733;
+  color: white;
+  border-radius: 3px;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+.geeks{
+  width: 50%; 
+                top: 50%; 
+                position: absolute; 
+                left: 40%; 
+                overflow: hidden; 
+                animation: animate 5s linear forwards; 
+                text-align: center;  
+}
+<!-- .geeks h1 { 
+  color: rgb(88, 152, 230); 
+} 
+
+h1.big {
+  line-height: 6.5;
+} -->
+@keyframes animate { 
+  0% { 
+      width: 0px; 
+      height: 0px; 
+  } 
+
+  30% { 
+      width: 50px; 
+      height: 0px; 
+  } 
+
+  60% { 
+      width: 50px; 
+      height: 80px; 
+  } 
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<!-- <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> -->
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to QUIZINK!</h1>
+            <p>Test your knowledge and challenge your friends with quizzes across various topics.</p>
+            <a href="index.html" class="btn start-btn">Start Quiz</a>
+        </section>
+        <!-- <div class="geeks"class="big"> 
+          <h1 class="big">WELCOME</h1>
+        </div> -->
+        <section id="about" class="about">
+            <h2>About QUIZINK</h2>
+            <p>QUIZINK is your go-to platform for fun and educational quizzes.</p>
+        </section>
+
+        <section id="categories" class="categories">
+            <h2>Explore Categories</h2>
+            <div class="category-grid">
+                <div class="category-item">CLASS (6TH-10TH) </div>
+                <div class="category-item">CLASS (11 AND 12)</div>
+                <div class="category-item">B.Tech</div>
+                <div class="category-item">B.Arch</div>
+                <div class="category-item">JEE Main</div>
+                <div class="category-item">NEET</div>
+                <div class="category-item">NDA</div>
+                <div class="category-item">UPSE</div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? <a href="mailto:quizmaster@support.com">Email us</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Quizink. All rights reserved.</p>
+    </footer>
+</body>
+</html>

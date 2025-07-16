@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+ 
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: #dabdec;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #ba7ae2;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(95, 93, 96);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #484545;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="hardik" style="width:100%">
+      <div class="container">
+        <h2>HARDIK PANDEY</h2>
+        <p class="title">work on development </p>
+        <p>hardikpandey@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="harsh" style="width:100%">
+      <div class="container">
+        <h2>HARSH RAJ</h2>
+        <p class="title">work on design and javascript</p>
+        <p>harshraj@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="himanshu" style="width:100%">
+      <div class="container">
+        <h2>HIMANSHU PATEL</h2>
+        <p class="title">work on html</p>
+        <p>himanshupatel@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+      </div>
+      </div>
+
+    <div class="column">
+        <div class="card">
+          <img src="/w3images/team3.jpg" alt="jaiveer" style="width:100%">
+          <div class="container">
+            <h2>JAIVEER SINGH</h2>
+            <p class="title">work on css</p>
+            <p>jaiveersingh@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+  </div>
+</div>
+
+</body>
+</html>
