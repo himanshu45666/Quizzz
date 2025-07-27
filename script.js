@@ -95,7 +95,7 @@ const startTimer = (time) => {
     }
     if (time >= 0) {
       progress(time);
-      time-1;
+      time = time-1;
     } else {
       checkAnswer();
     }
